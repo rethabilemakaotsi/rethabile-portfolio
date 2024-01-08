@@ -1,0 +1,23 @@
+{
+    "education": [
+        {
+            "Id": 1,
+            "schoolName": "Chris Hani Art and Culture high school",
+            "year": "2018"
+        }
+    ],
+     "skills": [
+        {
+            "'Id": 1,
+            "skillsName": "HTML",
+            "image": "https://drive.google.com/file/d/1XDQWayz6yNKIoI9EbSy4_INCvIuWYJhB/view?usp=drive_link"
+        },
+        {
+            "Id":2,
+            "skillsName": "CSS",
+            "image":"https://drive.google.com/file/d/1M4Wi1TRKrKEWlIOSzSxReGMm2r13xjRd/view?usp=drive_link"
+        }
+     ]
+
+    
+}
