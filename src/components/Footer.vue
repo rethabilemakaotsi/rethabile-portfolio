@@ -5,9 +5,9 @@
         <div class="contact-info">
           <h3>Contact Information</h3>
           <p>
-            <i class="bi bi-house-door"></i> 123 Main Street, Cityville, Country<br>
-            <i class="bi bi-telephone"></i> Phone: +123 456 7890<br>
-            <i class="bi bi-envelope"></i> Email: info@example.com
+            <i class="bi bi-house-door"></i> Makhaza khayelitsha 7784<br>
+            <i class="bi bi-telephone"></i> Phone: 062 430 0882<br>
+            <i class="bi bi-envelope"></i> Email: rethabilemakotsi17@gmail.com
           </p>
         </div>
         <div class="social-icons">
@@ -19,7 +19,7 @@
           </a>
         </div>
       </div>
-      <p class="copyright">Rethabile's Portfolio &copy; {{ currentYear }}</p>
+      <p class="copyright"> &copy;Rethabile's Portfolio {{ currentYear }}</p>
     </div>
   </footer>
 </template>
@@ -41,16 +41,16 @@ export default {
   background-color: #84af9b;
   padding: 20px;
   text-align: center;
-  height: 200px; /* Adjusted height to accommodate content */
+  height: 200px; 
 }
 
 h3 {
-  font-size: medium; /* Adjusted font size for better readability */
+  font-size: medium; 
 }
 
 .contact-info {
   text-align: center;
-  margin: 0 auto; /* Center the contact info */
+
   max-width: 400px;
   margin-bottom: 20px;
   font-size: small;
