@@ -1,4 +1,5 @@
 <template>
+  
     <div class="contact-container">
       <h1>Contact</h1>
       <div class="form-container">
@@ -21,6 +22,24 @@
         </form>
       </div>
     </div>
+    <div class="contact-info">
+      <h5>contact information</h5>
+      <p> <i class="bi bi-house-door"></i> Makhaza khayelitsha 7784<br>
+            <i class="bi bi-telephone"></i> Phone: 062 430 0882<br>
+            <i class="bi bi-envelope"></i> Email: rethabilemakaotsi17@gmail.com
+          </p>
+      
+          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+    </div>
+   
+      
+    
+    
   </template>
   
   <script>
@@ -28,9 +47,14 @@
   </script>
   
   <style scoped>
+  h5{
+    color: #84af9b;
+  }
   .contact-container {
     text-align: center;
     margin-top: 50px;
+    
+    
   }
   
   h1 {
@@ -49,6 +73,7 @@
     bottom: 0;
     left: 0;
   }
+
   
   .form-container {
     max-width: 400px;
@@ -57,8 +82,17 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
   }
-  
+   .contact-info {
+    max-width: 400px;
+    margin-left:800px ;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
   form {
     display: flex;
     flex-direction: column;
@@ -81,7 +115,7 @@
   
   button {
     background-color: #84af9b;
-    color: #fff;
+    color: black;
     padding: 10px;
     border: none;
     border-radius: 3px;
