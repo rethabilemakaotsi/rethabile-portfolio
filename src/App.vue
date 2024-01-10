@@ -1,4 +1,7 @@
 <template>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
 
   <Navigation />
 
@@ -43,6 +46,8 @@ export default{
 nav {
   padding: 30px;
   background-color: #84af9b;
+  
+  
 
   
 
@@ -52,7 +57,10 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  margin-right: 20px;
+  
   
 }
 
