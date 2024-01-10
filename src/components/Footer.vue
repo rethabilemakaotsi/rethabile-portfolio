@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container">
-      <div class="footer-content">
+      <!-- <div class="footer-content">
         <div class="contact-info">
           <h3>Contact Information</h3>
           <p>
@@ -18,8 +18,8 @@
             <i class="bi bi-linkedin"></i>
           </a>
         </div>
-      </div>
-      <p class="copyright"> &copy;Rethabile's Portfolio {{ currentYear }}</p>
+      </div> -->
+      <p class="copyright"> &copy; Rethabile's Portfolio {{ currentYear }}</p>
     </div>
   </footer>
 </template>
@@ -41,14 +41,12 @@ export default {
   background-color: #84af9b;
   padding: 20px;
   text-align: center;
-  height: 200px; 
+  height: 40px; 
 }
 
-h3 {
-  font-size: medium; 
-}
 
-.contact-info {
+
+/* .contact-info {
   text-align: center;
 
   max-width: 400px;
@@ -70,7 +68,7 @@ h3 {
 .bi {
   font-size: 1.5rem;
   margin: 5px;
-}
+} */
 
 .copyright {
   margin-top: 20px;
