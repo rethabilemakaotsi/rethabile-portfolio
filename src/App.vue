@@ -54,7 +54,7 @@ nav {
 }
 
 nav a {
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
   text-align: center;
   font-family: 'Inter', sans-serif;

@@ -1,9 +1,9 @@
 <template>
-  
+  <h1>Contact</h1>
     <div class="contact-container">
-      <h1>Contact</h1>
+      
       <div class="form-container">
-        <form action="https://formspree.io/f/{form_id}" method="post">
+        <form action="https://formspree.io/f/" method="post">
           <h4>Get in Touch</h4>
   
           <label for="name">Name</label>
@@ -23,18 +23,20 @@
       </div>
     </div>
     <div class="contact-info">
-      <h5>contact information</h5>
+      <h4>contact information</h4>
       <p> <i class="bi bi-house-door"></i> Makhaza khayelitsha 7784<br>
-            <i class="bi bi-telephone"></i> Phone: 062 430 0882<br>
-            <i class="bi bi-envelope"></i> Email: rethabilemakaotsi17@gmail.com
+            <i class="bi bi-telephone"></i>  062 430 0882<br>
+            <i class="bi bi-envelope"></i> rethabilemakaotsi17@gmail.com
           </p>
-      
-          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+      <div class="social-icons">
+        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-linkedin"></i>
           </a>
+      </div>
+         
     </div>
    
       
@@ -47,9 +49,7 @@
   </script>
   
   <style scoped>
-  h5{
-    color: #84af9b;
-  }
+ 
   .contact-container {
     text-align: center;
     margin-top: 50px;
@@ -57,22 +57,11 @@
     
   }
   
-  h1 {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 30px;
+  
+  h4{
+    color: #84af9b;
   }
   
-  h1::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #ccc;
-    bottom: 0;
-    left: 0;
-  }
 
   
   .form-container {
@@ -87,11 +76,11 @@
    .contact-info {
     max-width: 400px;
     margin-left:800px ;
-    margin-top: -200px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -490px;
     
   }
   form {
@@ -121,6 +110,13 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
+  }
+  .social-icons{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    margin-left:150px;
+    
   }
   </style>
   
