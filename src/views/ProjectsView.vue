@@ -1,12 +1,17 @@
 <template >
-        <div class="card text-black" style="width: 18rem;" v-for="project in Projects" :key="project">
-  <img src="" class="card-img-top" alt="">
+  <h1> Projects</h1>
+  <div class="row  mx-5">
+        <div class="card text-black w-25 mx-5 mt-4 mb-4" v-for="project in Projects" :key="project">
+  <img :src="project.image" class="card-img-top" alt="">
   <div class="card-body">
     <h5 class="card-title">   {{ project.name }}</h5>
-    {{ this.$store.state.projects }}
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+    <p class="card-text">{{ project.description }}</p>
+    <a href="#" class="btn btn-primary">Github </a>
+    <a href="#" class="btn btn-primary">Vercel </a>
+
   </div>
+</div>
 </div>
 
 </template>

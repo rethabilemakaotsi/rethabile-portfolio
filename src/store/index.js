@@ -29,7 +29,7 @@ export default createStore({
     async fetchEducation(context) {
       try {
         let res = await fetch(dataUrl);
-        let education = res.json();
+        let education = await res.json();
         context.commit("setEducation",education.education);
 
       }
@@ -40,7 +40,7 @@ export default createStore({
     async fetchSkills(context) {
       try {
         let res = await fetch(dataUrl);
-        let skills = res.json();
+        let skills = await res.json();
         context.commit("setSkills",skills.skills);
 
       }
@@ -63,7 +63,7 @@ export default createStore({
     async fetchTestimonials(context) {
       try {
         let res = await fetch(dataUrl);
-        let testimonials= res.json();
+        let testimonials= await res.json();
         context.commit("setTestimonials",testimonials.testimonials);
 
       }
