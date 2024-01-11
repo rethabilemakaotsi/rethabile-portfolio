@@ -87,6 +87,7 @@
    .contact-info {
     max-width: 400px;
     margin-left:800px ;
+    margin-top: -200px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
