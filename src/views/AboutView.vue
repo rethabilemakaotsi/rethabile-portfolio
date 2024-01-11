@@ -29,6 +29,8 @@
 h1 {
   font-family: 'Inter', sans-serif;
   margin-top: 30px;
+
+  
 }
 
 img {

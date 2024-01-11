@@ -6,7 +6,7 @@
     </div>
    <div class="text-contianer">
     
-      <h1 > I'm Rethabile Makaotsi <br>Aspiring Developer</h1>
+      <h1 ><strong> I'm Rethabile Makaotsi <br>Aspiring Developer</strong></h1>
       <p>Welcome to my coding journey, here you will find updates on my projects and the exciting challenges i encounter along the way.<br>Join as i learn ,build and grow in the ever-evolving landscape of software development.</p>
       <router-link to="../views/ProjectsView.vue">
         <button class="btn " type="button">view my work</button>
@@ -33,6 +33,10 @@
  justify-content: space-between;
  align-items: center;
  height: 600px;
+}
+p{
+  font-family: 'Inter', sans-serif;
+  color: black;
 }
 
 
