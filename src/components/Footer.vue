@@ -40,7 +40,7 @@ export default {
 .container {
   background-color: #84af9b;
   padding: 20px;
-  text-align: center;
+
   height: 40px; 
 }
 
@@ -71,9 +71,11 @@ export default {
 } */
 
 .copyright {
-  margin-top: 20px;
+
   font-size: 12px;
   color: black;
+  text-align: center;
+  margin: 450px;
 }
 </style>
 
