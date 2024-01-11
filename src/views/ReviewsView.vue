@@ -6,10 +6,8 @@
   <div class="card-body">
     <h5 class="card-title">   {{ testimonial.name }}</h5>
 
-    <p class="card-text">{{ testimonial.qoutes }}</p>
-
-    
-
+    <p class="card-text">{{testimonial.description }}</p>
+   
   </div>
 </div>
 </div>
@@ -18,7 +16,7 @@
 <script>
 export default{
   computed:{
-    Testimonials(){
+   Testimonials(){
       return this.$store.state.testimonials
     }
   },
@@ -31,3 +29,5 @@ export default{
 <style >
     
 </style>   
+   
+ 
