@@ -1,25 +1,29 @@
 <template>
-  <h1>Contact</h1>
+  <h2>Contact</h2>
     <div class="contact-container">
       
       <div class="form-container">
-        <form action="https://formspree.io/f/" method="post">
-          <h4>Get in Touch</h4>
+        <form
+  action="https://formspree.io/f/myyrzeyk"
+  method="POST">
+  <h4>Get in Touch</h4>
   
-          <label for="name">Name</label>
-          <input name="name" id="name" type="text" required>
-  
-          <label for="number">Contact Number</label>
-          <input name="number" id="number" type="tel" required>
-  
-          <label for="email">Your Email</label>
-          <input name="email" id="email" type="email" required>
-  
-          <label for="message">Message</label>
-          <textarea name="message" id="message" rows="4" required></textarea>
-  
-          <button class="btn" type="submit">Submit</button>
-        </form>
+  <label for="name">Name</label>
+  <input name="name" id="name" type="text" required>
+
+  <label for="number">Contact Number</label>
+  <input name="number" id="number" type="tel" required>
+
+  <label for="email">Your Email</label>
+  <input name="email" id="email" type="email" required>
+
+  <label for="message">Message</label>
+  <textarea name="message" id="message" rows="4" required></textarea>
+
+  <button class="btn" type="submit">Submit</button>
+</form>
+         
+      
       </div>
     </div>
     <div class="contact-info">
@@ -29,10 +33,10 @@
             <i class="bi bi-envelope"></i> rethabilemakaotsi17@gmail.com
           </p>
       <div class="social-icons">
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/rethabile-makaotsi-b47258241/" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-linkedin"></i>
           </a>
       </div>
@@ -49,6 +53,25 @@
   </script>
   
   <style scoped>
+  @media screen and (max-width: 500px){
+    .contact-container{
+      width: 100%;
+    }
+    .contact-info{
+      width: 100%;
+    }
+
+  }
+  h2{
+    font-family: 'Inter', sans-serif;
+  margin-top: 30px;
+  color:#2c3e50;
+  text-transform: uppercase;
+  }
+
+   
+    
+  
  
   .contact-container {
     text-align: center;

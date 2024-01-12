@@ -21,12 +21,14 @@
 
 import Navigation from './components/Navigation.vue';
 import Footer from './components/Footer.vue';
+import Spinner from './components/Spinner.vue';
 
 export default{
   components: {
   
     Navigation,
-    Footer
+    Footer,
+    Spinner
   },
 }
 </script>
@@ -54,7 +56,7 @@ nav {
 }
 
 nav a {
-  /* font-weight: bold; */
+
   text-decoration: none;
   text-align: center;
   font-family: 'Inter', sans-serif;

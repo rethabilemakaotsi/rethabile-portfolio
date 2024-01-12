@@ -8,6 +8,7 @@ export default createStore({
     skills: null,
     projects: null,
     testimonials: null,
+    isLoading: false,
   },
   getters: {},
   
@@ -24,8 +25,24 @@ export default createStore({
     setTestimonials(state, value){
       state.testimonials = value;
     },
+    setLoading(state, value){
+      state.isLoading = value;
+    },
   },
   actions: {
+    async fetchData(context, { endpoint, mutation}){
+      try {
+        context.commit("setLoading", true)
+
+        let res =await fetch('${dataUrl}${endpoint}');
+        let data = await res.json();
+        context.commit(mutation, data[endpoint]);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        context.commit ("setLoading", false);
+      }
+    },
     async fetchEducation(context) {
       try {
         let res = await fetch(dataUrl);

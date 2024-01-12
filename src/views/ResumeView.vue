@@ -83,4 +83,9 @@ export default {
   width: 100%; 
   max-width: 100px; 
 }
+@media screen and (max-width:600px){
+  #education-container .skills-list{
+    width: 100%;
+  }
+}
 </style>
