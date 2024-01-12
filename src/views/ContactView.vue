@@ -6,7 +6,7 @@
         <form
   action="https://formspree.io/f/myyrzeyk"
   method="POST">
-  <h4>Get in Touch</h4>
+  <h4>Leave a message.</h4>
   
   <label for="name">Name</label>
   <input name="name" id="name" type="text" required>
@@ -28,11 +28,12 @@
     </div>
     <div class="contact-info">
       <h4>contact information</h4>
-      <p> <i class="bi bi-house-door"></i> Makhaza khayelitsha 7784<br>
-            <i class="bi bi-telephone"></i>  062 430 0882<br>
-            <i class="bi bi-envelope"></i> rethabilemakaotsi17@gmail.com
-          </p>
+      <p>   <i class="bi bi-geo-alt"></i> Makhaza khayelitsha 7784 </p>
+            <p> <i class="bi bi-telephone"></i> 062 430 0882</p>
+            <p><i class="bi bi-envelope"></i> rethabilemakaotsi17@gmail.com</p>
+         
       <div class="social-icons">
+        
         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-github"></i>
           </a>
@@ -63,9 +64,9 @@
 
   }
   h2{
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-top: 30px;
-  color:#2c3e50;
+  
   text-transform: uppercase;
   }
 
@@ -135,10 +136,12 @@
     cursor: pointer;
   }
   .social-icons{
+    color: black;
+    font-size: 30px;
     text-align: center;
     display: flex;
     gap: 20px;
-    margin-left:150px;
+    margin-left:140px;
     
   }
   </style>

@@ -1,20 +1,18 @@
-<template >
-  <h2> Projects</h2>
-  <div class="row  mx-5">
-        <div class="card text-black w-25 mx-5 mt-4 mb-4" v-for="project in Projects" :key="project">
-  <img :src="project.image" class="card-img-top" alt="" height="150px" width="100px">
-  <div class="card-body">
-    <h5 class="card-title">   {{ project.name }}</h5>
-
-    <p class="card-text">{{ project.description }}</p>
-    <a href="#" class="btn btn-primary " id="btn-space">Github </a>
-    <a href="#" class="btn btn-primary"  id="btn-space">Vercel </a>
-
+<template>
+  <h2>Projects</h2>
+  <div class="row mx-5">
+    <div class="card text-black w-25 mx-5 mt-4 mb-4" v-for="project in Projects" :key="project">
+      <img :src="project.image" class="card-img-top" alt="" height="150px" width="100px">
+      <div class="card-body">
+        <h5 class="card-title ">{{ project.name }}</h5>
+        <p class="card-text">{{ project.description }}</p>
+        <a :href="project.gitHub"  class="btn btn-primary" id="btn-space">Github </a>
+        <a :href="project.vercel" class="btn btn-primary" id="btn-space">Vercel </a>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-
 </template>
+
 <script>
 export default{
   computed:{
@@ -29,10 +27,15 @@ export default{
 
 </script>
 <style >
+  @media screen and (max-width: 500px){
+    .row{
+      width: 100%;
+    }
+  }
 h2{
   font-family: 'Inter', sans-serif;
   margin-top: 30px;
-  color:#2c3e50;
+  color: #84af9b;
   text-transform: uppercase;
   font-weight: bolder;
 
@@ -49,11 +52,11 @@ h2{
  
 }
 .card-title{
-  color: #84af9b;
+  color:black;
 }
 .btn {
   background-color: #84af9b;
-  color: white; 
+  color: black; 
   padding: 10px 20px; 
   border: none;
   border-radius: 5px;
@@ -67,6 +70,7 @@ h2{
 #btn-space{
   margin-left: 40px;
 }
+
 
 </style>
 
