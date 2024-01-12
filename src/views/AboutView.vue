@@ -1,4 +1,5 @@
 <template>
+  
   <div class="about-container">
     <div class="about">
       <div class="text-container">
@@ -35,7 +36,6 @@
 h2 {
   font-family: 'Inter', sans-serif;
   margin-top: 30px;
-  color: #2c3e50;
   text-transform: uppercase;
 }
 

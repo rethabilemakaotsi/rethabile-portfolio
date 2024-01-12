@@ -62,6 +62,8 @@ nav a {
   font-family: 'Inter', sans-serif;
   color: white;
   margin-right: 20px;
+  text-transform: uppercase;
+  
   
   
 }

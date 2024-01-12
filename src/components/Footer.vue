@@ -20,6 +20,8 @@ export default {
 <style scoped>
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
+  
+
 
 .copyright {
   font-weight: bolder;
@@ -28,7 +30,7 @@ export default {
 
   font-size: 12px;
   color: black;
-  text-align: center;
+text-align: center;
 margin-top: 300px;
 margin-bottom: 0px;
 }
