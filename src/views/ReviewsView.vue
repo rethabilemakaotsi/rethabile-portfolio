@@ -1,5 +1,5 @@
 <template >
-  <h1> Reviews</h1>
+  <h2> Reviews</h2>
   <div class="reviews-container">
     <div class="row  mx-5">
         <div class="card text-black w-25 mx-5 mt-4 mb-4" v-for="testimonial in Testimonials" :key="testimonial">
@@ -29,7 +29,13 @@ export default{
 }
 
 </script>
-<style >
+<style scoped >
+@media screen and (max-width: 600px){
+  .reviews-container{
+    width: 100px;
+  }
+  
+}
     
 </style>   
    
